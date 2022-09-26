@@ -8,7 +8,7 @@ function App() {
 
   const editorRef = useRef(null);
   const [editorLoaded,setEditorLoaded] = useState(false);
-  const [value, setValue] = useState('')
+  const [, setValue] = useState('')
 
   function handleEditorDidMount(editor, monaco) {
     editorRef.current = editor;
